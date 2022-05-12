@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+
+body section {
+  width: 100%;
+  max-width: 1200px;
+  height: 50vh;
+  margin: auto;
+}
+
+body .section-1 {
+  position: relative;
+  background-color: #efd592;
+}
+
+body .section-1 .button-1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #242d38;
+  border: none;
+  border-radius: 50%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #efd592;
+}
+
+body .section-1 .button-2 {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  width: 200px;
+  height: 60px;
+  border: 6px solid #242d38;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+body .section-2 {
+  background-color: #4343f9;
+}
+
+body .section-2 .button-3 {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  width: 200px;
+  height: 60px;
+  background-color: #4343f9;
+  border: none;
+  -webkit-box-shadow: 0 0 20px black;
+          box-shadow: 0 0 20px black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */
